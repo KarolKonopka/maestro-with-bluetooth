@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>maestroBluetooth</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>maestroBluetooth</h1>
+            <div id="btns" style="display:none;">
+                <button id="conB">Connect</button>
+                <div id="conEl" style="display:none;">
+                    <div>
+                        <br>
+                        <button id="opnB" class="button">Open</button>
+                        <button id="clsB" class="button">Close</button>
+                        <button id="offB" class="button">Turn servos Off</button>
+                        <br><br>
+                        <button id="lB" class="button">L</button>
+                        <button id="lpB" class="button">L'</button>
+                        <button id="uB" class="button">U</button>
+                        <button id="upB" class="button">U'</button>
+                        <button id="dB" class="button">D</button>
+                        <button id="dpB" class="button">D'</button>
+                        <button id="rB" class="button">R</button>
+                        <button id="rpB" class="button">R'</button>
+                        <br><br>
+                        <button id="fB" class="button">F</button>
+                        <button id="fpB" class="button">F'</button>
+                        <button id="bB" class="button">B</button>
+                        <button id="bpB" class="button">B'</button>
+                        <br><br>
+                        <button id="opnLB" class="button">Open left</button>
+                        <button id="opnUB" class="button">Open up</button>
+                        <button id="opnDB" class="button">Open down</button>
+                        <button id="opnRB" class="button">Open right</button>
+                        <br><br>
+                        <button id="clsLB" class="button">Close left</button>
+                        <button id="clsUB" class="button">Close up</button>
+                        <button id="clsDB" class="button">Close down</button>
+                        <button id="clsRB" class="button">Close right</button>
+                    </div>
+                </div>
+            </div>
+            <p id="msgP">...</p>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
